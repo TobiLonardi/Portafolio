@@ -25,54 +25,60 @@ const Home = () => {
 
 				
 			</div>
-			<div className="container border border-3 rounded w-100 my-3 pt-3 d-flex text-center ">
-				<div className="col-1">
-					<p>Python <i class="fa-brands fa-python"></i></p>
+			
+			<div className="container border border-4 border-dark-subtle rounded rounded my-3  d-flex text-center justify-content-center align-items-center p-0">
+				<div className="row w-100">
+					<div className="col-1 border border-3 border-dark d-flex align-items-center justify-content-center  skills p-0">
+					<p className="m-0">Python <i class="fa-brands fa-python"></i></p>
 					
 				</div>
-				<div className="col-1">
-					<p>JavaScript <i class="fa-brands fa-js"></i></p>
+				<div className="col-1 border border-3 border-dark d-flex align-items-center justify-content-center p-0 skills">
+					<p className="m-0 ">JavaScript <i class="fa-brands fa-js"></i></p>
 					
 				</div>
-				<div className="col-1">
-					<p>HTML5 <i class="fa-brands fa-html5"></i></p>
+				<div className="col-1 border border-3 border-dark d-flex align-items-center justify-content-center p-0 skills">
+					<p className="m-0">HTML5 <i class="fa-brands fa-html5"></i></p>
 					
 				</div>
-				<div className="col-1">
-					<p>CSS <i class="fa-brands fa-css"></i></p>
+				<div className="col-1 border border-3 border-dark d-flex align-items-center justify-content-center skills">
+					<p className="m-0">CSS <i class="fa-brands fa-css"></i></p>
 					
 				</div>
-				<div className="col-1">
-					<p>BootStrap <i class="fa-brands fa-bootstrap"></i></p>
+				<div className="col-1 border border-3 border-dark d-flex align-items-center justify-content-center p-0 skills">
+					<p className="m-0">Bootstrap <i class="fa-brands fa-bootstrap"></i></p>
 					
 				</div>
-				<div className="col-1">
-					<p>React.js <i class="fa-brands fa-react"></i></p>
+				<div className="col-1 border border-3 border-dark d-flex align-items-center justify-content-center skills p-0">
+					<p className="m-0">React.js <i class="fa-brands fa-react"></i></p>
 					
 				</div>
-				<div className="col-1">
-					<p>Flask <i class="fa-solid fa-flask"></i></p>
+				<div className="col-1 border border-3 border-dark d-flex align-items-center justify-content-center skills">
+					<p className="m-0">Flask <i class="fa-solid fa-flask"></i></p>
 					
 				</div>
-				<div className="col-1">
-					<p>SQL <i class="fa-solid fa-database"></i></p>
+				<div className="col-1 border border-3 border-dark d-flex align-items-center justify-content-center skills">
+					<p className="m-0">SQL <i class="fa-solid fa-database"></i></p>
 					
 				</div>
 
-				<div className="col-1">
-					<p>GitHub <i class="fa-brands fa-github"></i></p>
+				<div className="col-1 border border-3 border-dark d-flex align-items-center justify-content-center skills p-0">
+					<p className="m-0">GitHub <i class="fa-brands fa-github"></i></p>
 					
 				</div>
-				<p className="col-1">C#</p>
-				<div className="col-1">
-					<p>Unity <i class="fa-brands fa-unity"></i></p>
+				<div className="col-1 border border-3 border-dark d-flex align-items-center justify-content-center skills">
+					<p className="m-0">C#</p>
+				</div >
+				<div className="col-1 border border-3 border-dark d-flex align-items-center justify-content-center skills">
+					<p className="m-0">Unity <i class="fa-brands fa-unity"></i></p>
 					
 				</div>
-				<div className="col-1">
-					<p className="">Unreal <img src={unrealLogo} alt="" className="others-logos" /></p>
+				<div className="col-1 border border-3 border-dark d-flex align-items-center justify-content-center skills p-0">
+					<p className="m-0">Unreal <img src={unrealLogo} alt="" className="others-logos" /></p>
 					
 					
 				</div>
+				</div>
+				
 			</div>
 
 			<div className="border border-3 rounded w-100 my-3 p-3 d-flex justify-content-start align-items-center">
