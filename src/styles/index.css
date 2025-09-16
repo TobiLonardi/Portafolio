@@ -10,6 +10,31 @@ h1{
     font-size: 5rem;
 }
 
+body {
+  background-color: grey;
+  position: relative;
+  margin: 0;
+  min-height: 100vh;
+}
+
+body::before,
+body::after {
+  content: "";
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100px;
+  background: black; /* o un degradado, patrón, etc */
+}
+
+body::before {
+  left: 0;
+}
+
+body::after {
+  right: 0;
+}
+
 
 h1{
   font-family: "Oswald", sans-serif;
@@ -28,4 +53,11 @@ font-family: "Oswald", sans-serif;
 .padingX20{
   padding-left: 30px;
   padding-right: 30px;
+}
+
+.others-logos{
+  width: 22px;
+  height: 20px;
+  margin-bottom: 4px;
+  padding-right: 2px;
 }
