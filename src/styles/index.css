@@ -10,8 +10,10 @@ h1{
     font-size: 5rem;
 }
 
+
+
 body {
-  background-color: grey;
+  background-color: rgb(156, 156, 156);
   position: relative;
   margin: 0;
   min-height: 100vh;
@@ -74,6 +76,22 @@ font-family: "Oswald", sans-serif;
   transition: background-size 0.4s ease, color 0.4s ease;
 }
 .skills:hover {
-  background-size: 100% 100%; /* se expande de izq → der */
+  background-size: 100% 100%; 
   color: white;
 }
+
+.skills-title{
+  display: inline-block;
+  background: linear-gradient(to right, #333 0%, #333 100%);
+  background-size: 100% 0%;
+  background-repeat: no-repeat;
+  color: #333;
+  transition: background-size 0.4s ease, color 0.4s ease;
+  width: 10vw;
+  
+}
+.skills-title:hover {
+  background-size: 100% 100%; 
+  color: white;
+}
+

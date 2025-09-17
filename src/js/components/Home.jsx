@@ -2,7 +2,7 @@ import React from "react";
 
 //include images into your bundle
 import rigoImage from "../../img/rigo-baby.jpg";
-import profilePicture from "../../img/profile-picture.jpeg";
+import profilePicture from "../../img/profile-picture.png";
 import unrealLogo from "../../img/Unreal-logo.png";
 
 //create your first component
@@ -23,70 +23,84 @@ const Home = () => {
 					</div>
 				</div>
 
-				
+
 			</div>
-			
+			<div className="d-flex justify-content-center align-items-center my-3">
+				<h3 className="text-center  border rounded-4 bg-warning my-3 py-3 skills-title">Skills</h3>
+			</div>
+
 			<div className="container border border-4 border-dark-subtle rounded rounded my-3  d-flex text-center justify-content-center align-items-center p-0">
 				<div className="row w-100">
 					<div className="col-1 border border-3 border-dark d-flex align-items-center justify-content-center  skills p-0">
-					<p className="m-0">Python <i class="fa-brands fa-python"></i></p>
-					
-				</div>
-				<div className="col-1 border border-3 border-dark d-flex align-items-center justify-content-center p-0 skills">
-					<p className="m-0 ">JavaScript <i class="fa-brands fa-js"></i></p>
-					
-				</div>
-				<div className="col-1 border border-3 border-dark d-flex align-items-center justify-content-center p-0 skills">
-					<p className="m-0">HTML5 <i class="fa-brands fa-html5"></i></p>
-					
-				</div>
-				<div className="col-1 border border-3 border-dark d-flex align-items-center justify-content-center skills">
-					<p className="m-0">CSS <i class="fa-brands fa-css"></i></p>
-					
-				</div>
-				<div className="col-1 border border-3 border-dark d-flex align-items-center justify-content-center p-0 skills">
-					<p className="m-0">Bootstrap <i class="fa-brands fa-bootstrap"></i></p>
-					
-				</div>
-				<div className="col-1 border border-3 border-dark d-flex align-items-center justify-content-center skills p-0">
-					<p className="m-0">React.js <i class="fa-brands fa-react"></i></p>
-					
-				</div>
-				<div className="col-1 border border-3 border-dark d-flex align-items-center justify-content-center skills">
-					<p className="m-0">Flask <i class="fa-solid fa-flask"></i></p>
-					
-				</div>
-				<div className="col-1 border border-3 border-dark d-flex align-items-center justify-content-center skills">
-					<p className="m-0">SQL <i class="fa-solid fa-database"></i></p>
-					
+						<p className="m-0">Python <i class="fa-brands fa-python"></i></p>
+
+					</div>
+					<div className="col-1 border border-3 border-dark d-flex align-items-center justify-content-center p-0 skills">
+						<p className="m-0 ">JavaScript <i class="fa-brands fa-js"></i></p>
+
+					</div>
+					<div className="col-1 border border-3 border-dark d-flex align-items-center justify-content-center p-0 skills">
+						<p className="m-0">HTML5 <i class="fa-brands fa-html5"></i></p>
+
+					</div>
+					<div className="col-1 border border-3 border-dark d-flex align-items-center justify-content-center skills">
+						<p className="m-0">CSS <i class="fa-brands fa-css"></i></p>
+
+					</div>
+					<div className="col-1 border border-3 border-dark d-flex align-items-center justify-content-center p-0 skills">
+						<p className="m-0">Bootstrap <i class="fa-brands fa-bootstrap"></i></p>
+
+					</div>
+					<div className="col-1 border border-3 border-dark d-flex align-items-center justify-content-center skills p-0">
+						<p className="m-0">React.js <i class="fa-brands fa-react"></i></p>
+
+					</div>
+					<div className="col-1 border border-3 border-dark d-flex align-items-center justify-content-center skills">
+						<p className="m-0">Flask <i class="fa-solid fa-flask"></i></p>
+
+					</div>
+					<div className="col-1 border border-3 border-dark d-flex align-items-center justify-content-center skills">
+						<p className="m-0">SQL <i class="fa-solid fa-database"></i></p>
+
+					</div>
+
+					<div className="col-1 border border-3 border-dark d-flex align-items-center justify-content-center skills p-0">
+						<p className="m-0">GitHub <i class="fa-brands fa-github"></i></p>
+
+					</div>
+					<div className="col-1 border border-3 border-dark d-flex align-items-center justify-content-center skills">
+						<p className="m-0">C#</p>
+					</div >
+					<div className="col-1 border border-3 border-dark d-flex align-items-center justify-content-center skills">
+						<p className="m-0">Unity <i class="fa-brands fa-unity"></i></p>
+
+					</div>
+					<div className="col-1 border border-3 border-dark d-flex align-items-center justify-content-center skills p-0">
+						<p className="m-0">Unreal <img src={unrealLogo} alt="" className="others-logos" /></p>
+
+
+					</div>
 				</div>
 
-				<div className="col-1 border border-3 border-dark d-flex align-items-center justify-content-center skills p-0">
-					<p className="m-0">GitHub <i class="fa-brands fa-github"></i></p>
-					
-				</div>
-				<div className="col-1 border border-3 border-dark d-flex align-items-center justify-content-center skills">
-					<p className="m-0">C#</p>
-				</div >
-				<div className="col-1 border border-3 border-dark d-flex align-items-center justify-content-center skills">
-					<p className="m-0">Unity <i class="fa-brands fa-unity"></i></p>
-					
-				</div>
-				<div className="col-1 border border-3 border-dark d-flex align-items-center justify-content-center skills p-0">
-					<p className="m-0">Unreal <img src={unrealLogo} alt="" className="others-logos" /></p>
-					
-					
-				</div>
-				</div>
-				
 			</div>
 
-			<div className="border border-3 rounded w-100 my-3 p-3 d-flex justify-content-start align-items-center">
-				<img src={profilePicture} alt="" className="w-25 h-25"/>
-		
+			<div className="border border-3 rounded w-100 my-3 p-3 d-flex justify-content-between align-items-center">
+				<img src={profilePicture} alt="" className="w-25 h-25" />
+				<div class="card w-25 mx-3 border-0">
+					<div class="card-body  ">
+						<h4>Hello</h4>
+						<p>Fullstack Developer with a strong foundation in logic and design, shaped by creating game mechanics and character digitalization. Experience in video game development gives me a broad vision to build functional web solutions. I seek roles in software engineering or fullstack development to apply creativity, autonomy, and problem-solving skills.</p>
+					</div>
+				</div>
+				<div class="card w-25 mx-3 border-0">
+					<div class="card-body  ">
+						<h4>Hello</h4>
+						<p>Fullstack Developer with a strong foundation in logic and design, shaped by creating game mechanics and character digitalization. Experience in video game development gives me a broad vision to build functional web solutions. I seek roles in software engineering or fullstack development to apply creativity, autonomy, and problem-solving skills.</p>
+					</div>
+				</div>
 			</div>
-			
-			
+
+
 
 		</div>
 	);
