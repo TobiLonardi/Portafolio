@@ -84,20 +84,38 @@ const Home = () => {
 
 			</div>
 
-			<div className="border border-3 rounded background-gray w-100 my-3 p-3 d-flex justify-content-between align-items-center">
-				<img src={profilePicture} alt="" className="w-25 h-25" />
-				<div class="card w-25 mx-3 border-0">
-					<div class="card-body  ">
-						<h4>Hello</h4>
-						<p>Fullstack Developer with a strong foundation in logic and design, shaped by creating game mechanics and character digitalization. Experience in video game development gives me a broad vision to build functional web solutions. I seek roles in software engineering or fullstack development to apply creativity, autonomy, and problem-solving skills.</p>
+			<div className="container row border border-3 rounded background-gray w-100 my-3 p-3 d-flex justify-content-between align-items-center">
+				<img src={profilePicture} alt="" className=" col-3" />
+				<div className="d-flex flex-column justify-content-center align-items-center col-9">
+					<div class="card w-100 mx-3 border-0 ">
+						<div class="card-body ">
+							<h4>why hire me?</h4>
+							<p>Fullstack Developer with a background in Game Development, combining creativity and strong logical thinking to craft complete web solutions. Skilled in building dynamic and responsive interfaces with React and JavaScript, while also leveraging Python and Flask for robust backend development. My experience designing game mechanics enhances my problem-solving and innovation, enabling me to deliver engaging and functional applications.</p>
+						</div>
+
 					</div>
-				</div>
-				<div class="card w-25 mx-3 border-0">
-					<div class="card-body  ">
-						<h4>Hello</h4>
-						<p>Fullstack Developer with a strong foundation in logic and design, shaped by creating game mechanics and character digitalization. Experience in video game development gives me a broad vision to build functional web solutions. I seek roles in software engineering or fullstack development to apply creativity, autonomy, and problem-solving skills.</p>
+					<div className="d-flex justify-content-between align-items-center m-5">
+						<div class="card w-25 mx-3 border-0 w-50">
+						<div class="card-body  ">
+							<h4>why hire me?</h4>
+							<p>Fullstack Developer with a background in Game Development, combining creativity and strong logical thinking to craft complete web solutions. Skilled in building dynamic and responsive interfaces with React and JavaScript, while also leveraging Python and Flask for robust backend development. My experience designing game mechanics enhances my problem-solving and innovation, enabling me to deliver engaging and functional applications.</p>
+						</div>
+						
+
 					</div>
+					<div class="card w-25 mx-3 border-0 w-50">
+						<div class="card-body  ">
+							<h4>why hire me?</h4>
+							<p>Fullstack Developer with a background in Game Development, combining creativity and strong logical thinking to craft complete web solutions. Skilled in building dynamic and responsive interfaces with React and JavaScript, while also leveraging Python and Flask for robust backend development. My experience designing game mechanics enhances my problem-solving and innovation, enabling me to deliver engaging and functional applications.</p>
+						</div>
+						
+
+					</div>
+					</div>
+					
 				</div>
+
+
 			</div>
 
 
