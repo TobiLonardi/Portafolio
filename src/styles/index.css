@@ -6,14 +6,10 @@
     height: 50vh;
 }
 
-h1{
-    font-size: 5rem;
-}
-
 
 
 body {
-  background-color: rgb(156, 156, 156);
+  background-color: #fffcf2ff;
   position: relative;
   margin: 0;
   min-height: 100vh;
@@ -26,7 +22,7 @@ body::after {
   top: 0;
   bottom: 0;
   width: 100px;
-  background: black; /* o un degradado, patrón, etc */
+  background: #252422ff; /* o un degradado, patrón, etc */
 }
 
 body::before {
@@ -44,6 +40,7 @@ h1{
   font-weight: 1000;
   font-style: normal;
   letter-spacing: -9px;
+  font-size: 5rem;
 }
 
 p{
@@ -68,30 +65,48 @@ font-family: "Oswald", sans-serif;
   height: 80px;
   display: inline-block;
   padding: 10px 20px;
-  border: 2px solid #333;
-  background: linear-gradient(to right, #333 0%, #333 100%);
+  border: 2px solid #403d39ff;
+  background: linear-gradient(to right, #403d39ff 0%, #403d39ff 100%);
   background-size: 0% 100%;
   background-repeat: no-repeat;
-  color: #333;
+  color: #403d39ff;
   transition: background-size 0.4s ease, color 0.4s ease;
 }
 .skills:hover {
   background-size: 100% 100%; 
-  color: white;
+  color: #fffcf2ff;
 }
 
 .skills-title{
   display: inline-block;
-  background: linear-gradient(to right, #333 0%, #333 100%);
+  background: linear-gradient(to right, #403d39ff 0%, #403d39ff 100%);
   background-size: 100% 0%;
   background-repeat: no-repeat;
-  color: #333;
+  color: #403d39ff;
   transition: background-size 0.4s ease, color 0.4s ease;
   width: 10vw;
   
 }
 .skills-title:hover {
   background-size: 100% 100%; 
-  color: white;
+  color: #fffcf2ff;
 }
+
+.background-gray{
+  background-color:#ccc5b9ff ;
+}
+
+.background-white{
+  background-color: #fffcf2ff;
+}
+
+.orange{
+  background-color: #eb5e28ff;
+  --floral-white: #fffcf2ff;
+--timberwolf: #ccc5b9ff;
+--black-olive: #403d39ff;
+--eerie-black: #252422ff;
+--flame: #eb5e28ff;
+}
+
 
