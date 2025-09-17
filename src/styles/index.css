@@ -109,4 +109,23 @@ font-family: "Oswald", sans-serif;
 --flame: #eb5e28ff;
 }
 
+.image-container {
+  position: relative;      /* el contenedor sirve de referencia */
+  width:350px;
+  height: 300px;
+}
+
+.background-img {
+  width: 100%;
+  object-fit: cover;       /* ajusta la imagen al contenedor */
+}
+
+.overlay-img {
+  position: absolute;      /* se superpone */
+  top: 50%;                /* centrado vertical */
+  left: 50%;               /* centrado horizontal */
+  transform: translate(-50%, -50%);
+  width: 75%;            /* tamaño de la imagen superpuesta */           /* opcional: transparencia */
+}
+
 
