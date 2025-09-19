@@ -111,12 +111,14 @@ font-family: "Oswald", sans-serif;
 
 .image-container {
   position: relative;      /* el contenedor sirve de referencia */
-  width:350px;
+  width:400px;
   height: 300px;
 }
 
 .background-img {
-  width: 100%;
+  width: 600px;
+  padding-right: 200px;
+  height: 500px;
   object-fit: cover;       /* ajusta la imagen al contenedor */
 }
 
